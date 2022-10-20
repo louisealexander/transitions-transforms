@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: darkkhaki;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+P{
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    color: bisque;
+}
+#container{
+    width: 470px;
+    border: 1px solid bisque;
+    padding: 20px;
+}
+.ball{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transform: translateX(0px);
+}
+#ball1{
+    background-color: chocolate;
+    transition: transform 2s;
+}
+.ball:active{    
+    transform: translateX(400px);
+}
+#ball2{
+    background-color: chocolate;
+    transition: transform linear 2s;
+}
+#ball3{
+    background-color: chocolate ;
+    transition: transform ease-in 2s;
+}    
+#ball4{
+    background-color: chocolate;
+    transition: transform ease-out 2s;
+}
+#ball5{
+    background-color: chocolate;
+    transition: transform ease-in-out 2s;
+}

@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: darkkhaki;
+}
+p{
+    text-align: center;
+    font-family: cursive;
+    font-size: 1rem;
+}
+img{
+    max-width: 100%;
+}
+.polaroid{
+    width:150px;
+    background-color: aliceblue;
+    padding: 10px;
+    position: absolute;
+    filter: grayscale(100%);
+    transform: scale(1);
+    transition: all 0.5s;
+}
+.polaroid:hover{
+    filter: grayscale(0%);
+    transform: rotate(0deg);
+    transform: scale(1.5);
+}
+.rotate-right{
+    left: 500px;
+    top: 90px;
+    transform: rotate(7deg);
+}
+.rotate-right:hover{
+    transform: rotate(0);
+    transform: scale(1.5);
+}
+.rotate-left{
+    left: 120px;
+    top: 90px;
+    transform: rotate(-8deg);
+}
